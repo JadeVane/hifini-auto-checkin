@@ -4,7 +4,8 @@ on:
   workflow_dispatch:
   schedule:
     # UTC
-    - cron: "40 23 * * *"
+    # 网站关闭，所以暂停运行
+    # - cron: "40 23 * * *"
 
 jobs:
   checkin:
